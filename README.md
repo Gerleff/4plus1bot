@@ -29,6 +29,18 @@ sudo service ssh restart
 sudo passwd www
 ```
 
+
+CREATE TABLE Users (
+    N       [INT AUTO_INCREMENT] PRIMARY KEY,
+    name    CHAR (129), user_id INT);
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE toSub (
+id integer not null primary key autoincrement,
+link char(2000),
+short char(255),
+ch_id integer);
+
+
 ## Init — must-have packages & ZSH
 
 ```
